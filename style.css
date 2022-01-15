@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	overflow: hidden;
+	font-family: Arial;
+	background-color: inherit;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 25px 46px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #333;
+	border-radius: 50px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: red;
+	min-width: 75px;
+	box-shadow: opx 18px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	float: right;
+}
+
+.navbar a.active {
+	background-color: gray;
+	border-radius: 19px;
+}
+
+.navbar a.active:hover {
+	background-color: saddlebrown;
+	border-radius: 35px;
+}
+
+.dropdown-content a {
+	float: 5% left;
+	color: dimgray;
+	background-color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v118/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+	background-color: lightgrey;
+}
+.head {
+	!minmin-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Cover.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50pt;
+}
+.menu {
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+}
+h2 {
+	padding: 100px;
+	text-align: center;
+	font-size: 30pt;
+}
+.about_body {
+	text-align: center;
+	font-size: 15pt;
+	font-family: arial;
+}
+input[type="button"] {
+      background-color: darkslategray;
+      color: saddlebrown;
+      font-size: 20pt;
+	  border-radius: 15px;
+	  padding: 10px;
+}
+input[type="button"]:hover {
+		  background-color: saddlebrown;
+		  color: darkslategray;
+}
+input[type="button"]:active {
+		  transform: translateY(4px);
+		  box-shadow: 0 5px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+	background-color: blue;
+	color: white;
+}
+.home-page-text {
+	text-align: center;
+	font-size: 20pt;
+	font-family: arial;
+	color: black;
+}
